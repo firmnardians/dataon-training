@@ -12,7 +12,7 @@ Clone & run this project
   - git clone https://github.com/firmnardians/dataon-training.git training
   - cd training
   - npm i
-  - npm run
+  - npm run start
 
 ```
 
