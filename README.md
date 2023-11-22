@@ -15,3 +15,11 @@ Clone & run this project
   - npm run
 
 ```
+
+## Challenge
+
+-   Create a new branch with your name.
+-   Switch to your branch name.
+-   Open the Home.js file and add your name in the list order.
+-   When finished, you can push the changes, make sure you have pulled from the master branch.
+-   Don't forget to pull request to master
