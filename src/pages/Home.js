@@ -6,7 +6,11 @@ function HomePage() {
 		<Container>
 			<div>
 				<p>Daftar kehadiran:</p>
-				<p>Aris</p>
+				<ol>
+					<li>Ade Firman</li>
+					<li>Rahman Dhika</li>
+					<li>Aris Aryanto</li>
+				</ol>
 			</div>
 		</Container>
 	);
