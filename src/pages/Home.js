@@ -9,6 +9,7 @@ function HomePage() {
 
 				<ol>
 					<li>Ade Firman</li>
+					<li>Nur Ahmad Khatim</li>
 					<li>Rahman Dhika</li>
 					<li>Zakiy Almaulidani Ruwenda</li>
 				</ol>
