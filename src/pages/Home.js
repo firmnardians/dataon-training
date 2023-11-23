@@ -5,7 +5,15 @@ function HomePage() {
 	return (
 		<Container>
 			<div>
-				<p>Daftar kehadiran: Arya Febian</p>
+				<p>Daftar kehadiran:</p>
+
+				<ol>
+					<li>Ade Firman</li>
+					<li>Rahman Dhika</li>
+					<li>Zakiy Almaulidani Ruwenda</li>
+					<li>Arya Febian</li>
+				</ol>
+
 			</div>
 		</Container>
 	);
