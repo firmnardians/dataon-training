@@ -12,6 +12,7 @@ function HomePage() {
 					<li>Rahman Dhika</li>
 					<li>Aris Aryanto</li>
 					<li>Zakiy Almaulidani Ruwenda</li>
+					<li>Arya Febian</li>
 				</ol>
 			</div>
 		</Container>
