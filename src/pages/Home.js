@@ -5,7 +5,7 @@ function HomePage() {
 	return (
 		<Container>
 			<div>
-				<p>Daftar kehadiran:</p>
+				<p>Daftar kehadiran: Arya Febian</p>
 			</div>
 		</Container>
 	);
