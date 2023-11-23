@@ -6,6 +6,10 @@ function HomePage() {
 		<Container>
 			<div>
 				<p>Daftar kehadiran:</p>
+
+				<ol>
+					<li>Ade Firman</li>
+				</ol>
 			</div>
 		</Container>
 	);
