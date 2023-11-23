@@ -9,7 +9,9 @@ function HomePage() {
 
 				<ol>
 					<li>Ade Firman</li>
+					<li>Rahman Dhika</li>
 				</ol>
+
 			</div>
 		</Container>
 	);
