@@ -6,6 +6,7 @@ function HomePage() {
 		<Container>
 			<div>
 				<p>Daftar kehadiran:</p>
+				<p>Zakiy Almaulidani Ruwenda</p>
 			</div>
 		</Container>
 	);
