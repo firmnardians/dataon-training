@@ -13,6 +13,7 @@ function HomePage() {
 					<li>Aris Aryanto</li>
 					<li>Zakiy Almaulidani Ruwenda</li>
 					<li>Arya Febian</li>
+					<li>Aldien</li>
 				</ol>
 			</div>
 		</Container>
