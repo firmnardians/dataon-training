@@ -2,6 +2,10 @@
 
 New Employee Training - Programming with React JS
 
+## Result Project
+
+This project auto deploy to [https://dataon.netlify.app](https://dataon.netlify.app)
+
 ## Let's go
 
 -   Install [nodejs](https://nodejs.org/en/download/)
