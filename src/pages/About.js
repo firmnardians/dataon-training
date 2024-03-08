@@ -8,8 +8,6 @@ function AboutPage() {
 				<h1>New Employee Training - React.js & GIT.</h1>
 				<p>Trainer: Ade Firman</p>
 				<p>Location: Dataon Office</p>
-
-				<smal>23 November 2023</smal>
 			</div>
 		</Container>
 	);
