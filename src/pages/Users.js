@@ -66,10 +66,10 @@ function UsersPage() {
                             <tr style={{ backgroundColor: '#007bff', color: 'white' }}>
                                 <th style={thStyle}>Name</th>
                                 <th style={thStyle}>Username</th>
-                                <th style={thStyle}>Email</th>
+                                {/* <th style={thStyle}>Email</th>
                                 <th style={thStyle}>Phone</th>
                                 <th style={thStyle}>Company</th>
-                                <th style={thStyle}>Website</th>
+                                <th style={thStyle}>Website</th> */}
                             </tr>
                         </thead>
                         <tbody>
@@ -77,10 +77,10 @@ function UsersPage() {
                                 <tr key={user.id} style={{ borderBottom: '1px solid #ddd' }}>
                                     <td style={tdStyle}>{user.name}</td>
                                     <td style={tdStyle}>{user.username}</td>
-                                    <td style={tdStyle}>{user.email}</td>
+                                    {/* <td style={tdStyle}>{user.email}</td>
                                     <td style={tdStyle}>{user.phone}</td>
                                     <td style={tdStyle}>{user.company.name}</td>
-                                    <td style={tdStyle}>{user.website}</td>
+                                    <td style={tdStyle}>{user.website}</td> */}
                                 </tr>
                             ))}
                         </tbody>
