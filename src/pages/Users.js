@@ -31,7 +31,7 @@ export default function Users() {
             </tr>
           </thead>
           <tbody>
-            {users.filter(user => user.website.includes('.org')).map((user) => (
+            {users.filter(user => user.website.endsWith('.org')).map((user) => (
               <tr key={user.id}>
                 <td>{user.name}</td>
                 <td>{user.username}</td>
