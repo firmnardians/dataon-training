@@ -20,6 +20,11 @@ function Menu() {
 						<p>To do list</p>
 					</Link>
 				</li>
+				<li>
+					<Link to='/fetchapi'>
+						<p>Training Fetch API</p>
+					</Link>
+				</li>
 			</ul>
 		</div>
 	);
