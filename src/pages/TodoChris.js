@@ -22,11 +22,11 @@ export default function TodoChris() {
 
         <h1>My List</h1>
         <ul style={{display: "block"}}>
-          {todos.length > 0 && Object.values(todos).map((todo) => (
+          {todos.length > 0 && todos.map((todo, i) => (
             <>
               <li key={todo.id}>
                 {todo}
-                <button style={{marginLeft: '10px'}} type="button" color="red" onClick={() => setTodos(todos.filter((t) => t !== todo))}>
+                <button style={{marginLeft: '10px'}} type="button" color="red" onClick={() => setTodos(todos.filter((_, j) => j !== i))}>
                   Delete
                 </button>
               </li>
