@@ -15,6 +15,8 @@ function HomePage() {
 					<li>Arya Febian</li>
 					<li>Toni</li>
 					<li>Aldien</li>
+					<li>Abimanyu Luthfi</li>
+					<li>Christian Winata</li>
 					<li>Muhammad Abid Fajar</li>
 				</ol>
 			</div>
