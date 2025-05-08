@@ -22,6 +22,12 @@ function Menu() {
 						<p>Todolist</p>
 					</Link>
 				</li>
+
+				<li>
+					<Link to='/testapi'>
+						<p>Test API</p>
+					</Link>
+				</li>
 			</ul>
 		</div>
 	);
