@@ -17,8 +17,8 @@ export default function TodoChris() {
     <>
       <h1>Todo List</h1>
       <form onSubmit={handleSubmit} title="Todo List">
-        <input type="text" name="todo" required /><br />
-        <button type="submit">Add Todo</button>
+        <input style={{width: "200px"}} type="text" name="todo" required /><br />
+        <button style={{width: "200px"}} color="blue" type="submit">Add Todo</button>
 
         <h1>My List</h1>
         <ol>
@@ -26,7 +26,7 @@ export default function TodoChris() {
             <>
               <li key={todo.id}>
                 {todo}
-                <button type="button" onClick={() => setTodos(todos.filter((t) => t !== todo))}>
+                <button type="button" color="red" onClick={() => setTodos(todos.filter((t) => t !== todo))}>
                   Delete
                 </button>
               </li>
