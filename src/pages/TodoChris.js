@@ -10,7 +10,6 @@ export default function TodoChris() {
       ...prevTodos,
       ...formData.values(),
     ]));
-    console.log(todos);
   }
 
   return (
