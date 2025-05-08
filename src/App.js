@@ -3,6 +3,7 @@ import './App.css';
 import HomePage from './pages/Home';
 import AboutPage from './pages/About';
 import TodoChris from './pages/TodoChris';
+import Users from './pages/Users';
 
 function App() {
 	return (
@@ -10,6 +11,7 @@ function App() {
 			<Route path='/' element={<HomePage />} />
 			<Route path='/about' element={<AboutPage />} />
 			<Route path='/todo-chris' element={<TodoChris />} />
+			<Route path='/users' element={<Users />} />
 		</Routes>
 	);
 }
