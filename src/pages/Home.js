@@ -18,6 +18,7 @@ function HomePage() {
 					<li>Abimanyu Luthfi</li>
 					<li>Christian Winata</li>
 					<li>Ghifari</li>
+					<li>Salman</li>
 				</ol>
 			</div>
 		</Container>
