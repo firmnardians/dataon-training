@@ -19,6 +19,7 @@ function HomePage() {
 					<li>Christian Winata</li>
 					<li>Ghifari</li>
 					<li>Salman</li>
+					<li>Abid</li>
 				</ol>
 			</div>
 		</Container>
