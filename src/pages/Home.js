@@ -4,7 +4,7 @@ import Container from '../components/Container';
 function HomePage() {
 	return (
 		<Container>
-			<div>
+			<div className='mx-2'>
 				<p>Daftar kehadiran:</p>
 				<ol>
 					<li>Ade Firman</li>

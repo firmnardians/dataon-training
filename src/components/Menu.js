@@ -10,10 +10,14 @@ function Menu() {
 						<p>Home</p>
 					</Link>
 				</li>
-
 				<li>
 					<Link to='/about'>
 						<p>About</p>
+					</Link>
+				</li>
+				<li>
+					<Link to='/todolist'>
+						<p>To do list</p>
 					</Link>
 				</li>
 			</ul>
