@@ -9,10 +9,12 @@ export default function Users() {
   useEffect(() => {
     async function fetchData() {
       setIsLoading(true);
-      const response = await fetch('https://jsonplaceholder.typicode.com/users');
-      const data = await response.json();
-      setUsers(data);
-      setIsLoading(false);
+      await setInterval(async () => {
+        const response = await fetch('https://jsonplaceholder.typicode.com/users');
+        const data = await response.json();
+        setUsers(data);
+        setIsLoading(false);
+      }, 3000);
     }
     fetchData();
   }, []);
