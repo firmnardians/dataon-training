@@ -28,9 +28,6 @@ export default function Users() {
             <tr>
               <th>Name</th>
               <th>Username</th>
-              <th>Email</th>
-              <th>Phone</th>
-              <th>Website</th>
             </tr>
           </thead>
           <tbody>
@@ -38,9 +35,6 @@ export default function Users() {
               <tr key={user.id}>
                 <td>{user.name}</td>
                 <td>{user.username}</td>
-                <td>{user.email}</td>
-                <td>{user.phone}</td>
-                <td>{user.website}</td>
               </tr>
             ))}
           </tbody>
