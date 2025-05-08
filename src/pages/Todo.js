@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from '../components/Container';
 
-function HomePage() {
+function Todo() {
 	return (
 		<Container>
 			<div>
@@ -15,7 +15,6 @@ function HomePage() {
 					<li>Arya Febian</li>
 					<li>Toni</li>
 					<li>Aldien</li>
-					<li>Muhammad Abid Fajar</li>
 				</ol>
 			</div>
 		</Container>
