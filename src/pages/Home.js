@@ -17,6 +17,7 @@ function HomePage() {
 					<li>Aldien</li>
 					<li>Abimanyu Luthfi</li>
 					<li>Christian Winata</li>
+					<li>Ghifari</li>
 				</ol>
 			</div>
 		</Container>
