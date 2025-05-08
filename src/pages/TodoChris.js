@@ -26,7 +26,7 @@ export default function TodoChris() {
             <>
               <li key={todo.id}>
                 {todo}
-                <button type="button" color="red" onClick={() => setTodos(todos.filter((t) => t !== todo))}>
+                <button style={{marginLeft: '10px'}} type="button" color="red" onClick={() => setTodos(todos.filter((t) => t !== todo))}>
                   Delete
                 </button>
               </li>
