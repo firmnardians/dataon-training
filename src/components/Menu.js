@@ -21,6 +21,11 @@ function Menu() {
 						<p>Todo</p>
 					</Link>
 				</li>
+				<li>
+					<Link to='/users'>
+						<p>User</p>
+					</Link>
+				</li>
 			</ul>
 		</div>
 	);
