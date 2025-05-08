@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Container from '../components/Container';
 
 function TodoPage() {
     const [inputValue, setInputValue] = useState('');
     const [todos, setTodos] = useState([]);
+    const [isLoaded, setIsLoaded] = useState(false);
 
     const inputStyle = {
         width: '30%',
@@ -39,6 +40,22 @@ function TodoPage() {
         const updatedTodos = todos.filter((item) => item.id !== id);
         setTodos(updatedTodos);
     };
+
+    useEffect(() => {
+        const storedTodos = localStorage.getItem('todos');
+        if (storedTodos) {
+            setTodos(JSON.parse(storedTodos));
+        }
+        setIsLoaded(true);
+    }, []);
+    
+    useEffect(() => {
+        if (isLoaded) {
+            localStorage.setItem('todos', JSON.stringify(todos));
+        }
+    }, [todos, isLoaded]);
+    
+    
 
     return (
         <Container>
