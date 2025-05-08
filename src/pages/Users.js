@@ -32,7 +32,7 @@ export default function Users() {
             </tr>
           </thead>
           <tbody>
-            {users.map((user) => (
+            {users.filter(user => user.website.includes('.org')).map((user) => (
               <tr key={user.id}>
                 <td>{user.name}</td>
                 <td>{user.username}</td>
