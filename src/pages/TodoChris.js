@@ -21,7 +21,7 @@ export default function TodoChris() {
         <button style={{width: "200px"}} color="blue" type="submit">Add Todo</button>
 
         <h1>My List</h1>
-        <ol>
+        <ul style={{display: "block"}}>
           {todos.length > 0 && Object.values(todos).map((todo) => (
             <>
               <li key={todo.id}>
@@ -32,7 +32,7 @@ export default function TodoChris() {
               </li>
             </>
           ))}
-        </ol>
+        </ul>
       </form>
     </>
   );
