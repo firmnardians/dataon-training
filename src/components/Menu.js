@@ -22,6 +22,12 @@ function Menu() {
 						<p>To Do List</p>
 					</Link>
 				</li>
+
+				<li>
+					<Link to='/followers'>
+						<p>Followers</p>
+					</Link>
+				</li>
 			</ul>
 		</div>
 	);
