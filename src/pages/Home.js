@@ -1,5 +1,5 @@
-import React from 'react';
-import Container from '../components/Container';
+import React from "react";
+import Container from "../components/Container";
 
 function HomePage() {
 	return (
@@ -21,6 +21,7 @@ function HomePage() {
 					<li>Salman</li>
 					<li>Abid</li>
 					<li>Fachrul Ramdaniar H</li>
+          <li>Malinda</li>
 				</ol>
 			</div>
 		</Container>
