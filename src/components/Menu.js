@@ -16,6 +16,18 @@ function Menu() {
 						<p>About</p>
 					</Link>
 				</li>
+
+				<li>
+					<Link to='/todo-chris'>
+						<p>Todo Chris</p>
+					</Link>
+				</li>
+
+				<li>
+					<Link to='/users'>
+						<p>Users</p>
+					</Link>
+				</li>
 			</ul>
 		</div>
 	);
