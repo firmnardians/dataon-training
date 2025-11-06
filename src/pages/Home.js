@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../components/Container";
 
 function HomePage() {
-	return (
+return (
 		<Container>
 			<div>
 				<p>Daftar kehadiran:</p>
@@ -22,6 +22,7 @@ function HomePage() {
 					<li>Abid</li>
 					<li>Fachrul Ramdaniar H</li>
           <li>Malinda</li>
+          <li>Alvira</li>
 				</ol>
 			</div>
 		</Container>
