@@ -20,6 +20,7 @@ function HomePage() {
 					<li>Ghifari</li>
 					<li>Salman</li>
 					<li>Abid</li>
+					<li>Fachrul Ramdaniar H</li>
 				</ol>
 			</div>
 		</Container>
