@@ -1,8 +1,8 @@
-import React from "react";
-import Container from "../components/Container";
+import React from 'react';
+import Container from '../components/Container';
 
 function HomePage() {
-return (
+	return (
 		<Container>
 			<div>
 				<p>Daftar kehadiran:</p>
@@ -25,6 +25,7 @@ return (
 					<li>Alvira</li>
 					<li>Charisty</li>
 					<li>Irfan Saprudin</li>
+					<li>Gabriel</li>
 				</ol>
 			</div>
 		</Container>
