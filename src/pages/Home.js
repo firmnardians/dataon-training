@@ -25,6 +25,8 @@ function HomePage() {
           <li>Alvira</li>
           <li>Charisty</li>
           <li>Irfan Saprudin</li>
+          <li>Gabriel</li>
+          <li>Reno</li>
         </ol>
       </div>
     </Container>
