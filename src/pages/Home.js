@@ -23,8 +23,7 @@ return (
 					<li>Fachrul Ramdaniar H</li>
 					<li>Malinda</li>
 					<li>Alvira</li>
-					<li>Charisty</li>
-					<li>Irfan Saprudin</li>
+					<li>Gabriel</li>
 				</ol>
 			</div>
 		</Container>
