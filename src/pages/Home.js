@@ -21,9 +21,18 @@ return (
 					<li>Salman</li>
 					<li>Abid</li>
 					<li>Fachrul Ramdaniar H</li>
+<<<<<<< HEAD
           <li>Malinda</li>
           <li>Alvira</li>
           <li>Reno</li>
+||||||| 6a2c7ea
+          <li>Malinda</li>
+          <li>Alvira</li>
+=======
+					<li>Malinda</li>
+					<li>Alvira</li>
+					<li>Charisty</li>
+>>>>>>> 51a856e8fa679b4fcff18c1ffd84ab62da376009
 				</ol>
 			</div>
 		</Container>
