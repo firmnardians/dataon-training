@@ -21,8 +21,9 @@ return (
 					<li>Salman</li>
 					<li>Abid</li>
 					<li>Fachrul Ramdaniar H</li>
-          <li>Malinda</li>
-          <li>Alvira</li>
+					<li>Malinda</li>
+					<li>Alvira</li>
+					<li>Charisty</li>
 				</ol>
 			</div>
 		</Container>
